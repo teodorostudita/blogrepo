@@ -1,0 +1,7 @@
+# File di configurazione per Netlify
+# Questo file dice a Netlify come comportarsi e sovrascrive le impostazioni web.
+
+[build]
+  # Questa è la sezione che DISATTIVA il post-processing problematico
+  [build.processing]
+    skip_processing = true
