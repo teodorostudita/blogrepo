@@ -26,7 +26,7 @@
     {
       "id": "uj6wcq6i0k",
       "platform_specific_commands": {
-        "default": "\"/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh\" \"{{text_input:Messaggio del commit (lascia vuoto per default)}}\""
+        "default": "\"/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh\""
       },
       "shells": {},
       "alias": "Pubblica Sito",
