@@ -1,6 +1,6 @@
 ---
 title: Questo pare un cavallo
-date: 2025-08-05T15:05:54+01:00
+date: 2025-08-05T14:05:54+01:00
 draft: false
 description: sembrerebbe proprio un cavallo
 image: cavallo.jpg
