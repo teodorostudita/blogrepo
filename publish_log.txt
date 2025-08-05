@@ -1,22 +1,8 @@
 🚀 Inizio processo di pubblicazione...
 --------------------------------------
-🔄 Eseguo sync-blog.py...
+🔄 Eseguo sync-blog.py con: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
 Traceback (most recent call last):
   File "/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/sync-blog.py", line 4, in <module>
     import yaml
 ModuleNotFoundError: No module named 'yaml'
-➕ Aggiungo i file a Git...
-📦 Creo il commit con messaggio: 'Aggiornamento sito e blog - 2025-08-05 17:58:03'
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   publish_log.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-📤 Eseguo il push su GitHub...
-Everything up-to-date
---------------------------------------
-✅ Pubblicazione completata! Controlla il file publish_log.txt per i dettagli.
+➕ Aggiungo i file a Git con: /usr/bin/git
