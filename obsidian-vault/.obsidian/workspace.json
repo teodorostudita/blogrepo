@@ -25,12 +25,14 @@
             "id": "f40c867e0d063cb4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Blog/attachments/cavallo.jpg"
+                "file": "Blog/Cavallo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "cavallo"
+              "icon": "lucide-file",
+              "title": "Cavallo"
             }
           }
         ],
@@ -182,11 +184,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24b9ecfa8d12168f",
+  "active": "f40c867e0d063cb4",
   "lastOpenFiles": [
-    "Cavallo.md",
-    "Blog/attachments/cavallo.jpg",
     "Blog/La Provola.md",
+    "Blog/Cavallo.md",
+    "Blog/attachments/cavallo.jpg",
     "Blog/templates/Blog Post.md",
     "provola.jpg",
     "Blog/attachments",
