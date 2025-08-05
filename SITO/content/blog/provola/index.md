@@ -1,29 +1,22 @@
 ---
-TocOpen: false
 author: Gino
-categories: []
-comments: true
 cover:
-  alt: ''
-  caption: ''
-  image: '![[provola.jpg]]'
+  image: provola.jpg
   relative: true
-date: 2025-08-05 12:48:43+01:00
+date: 2025-08-05 12:00:00+02:00
 description: questa è una provola
-disableHLJS: false
-disableShare: false
 draft: false
-hidemeta: false
-searchHidden: false
-showToc: true
-tags: []
+image: provola.jpg
+tags:
+- blog
+- '2025'
 title: provola
 ---
 
-# Untitled
+# Titolo del post
 
 Scrivi qui il tuo post...
-![](provola.jpg)
+![provola](provola.jpg)
 
 ## Sezione 1
 
@@ -32,7 +25,3 @@ Contenuto della sezione...
 ## Conclusioni
 
 Conclusioni del post...
-
----
-
-*Tags: #blog #2025 #draft*

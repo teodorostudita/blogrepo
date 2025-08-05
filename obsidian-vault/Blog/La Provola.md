@@ -1,29 +1,17 @@
 ---
-title: "provola"
-date: 2025-08-05T12:48:43+01:00
+title: provola
+description: questa è una provola
+date: 2025-08-05T12:00:00+02:00 
+image: "provola.jpg"            
 draft: false
-description: "questa è una provola"
-tags: []
-categories: []
-author: "Gino"
-showToc: true
-TocOpen: false
-hidemeta: false
-comments: true
-disableHLJS: false
-disableShare: false
-searchHidden: false
-cover:
-    image: "![[provola.jpg]]"
-    alt: ""
-    caption: ""
-    relative: true
+author: Gino
+tags: ["blog", "2025"]
 ---
 
-# Untitled
+# Titolo del post
 
 Scrivi qui il tuo post...
-![[provola.jpg]]
+![provola](provola.jpg)
 
 ## Sezione 1
 
@@ -32,7 +20,3 @@ Contenuto della sezione...
 ## Conclusioni
 
 Conclusioni del post...
-
----
-
-*Tags: #blog #2025 #draft*

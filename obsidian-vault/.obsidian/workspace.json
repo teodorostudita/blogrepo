@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/La Provola.md",
+                "file": "Blog/templates/Blog Post.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "La Provola"
+              "title": "Blog Post"
             }
           }
         ]
@@ -171,9 +171,9 @@
   },
   "active": "1016a3688c894b28",
   "lastOpenFiles": [
-    "provola.jpg",
-    "Blog/templates/Blog Post.md",
     "Blog/La Provola.md",
+    "Blog/templates/Blog Post.md",
+    "provola.jpg",
     "Blog/attachments",
     "Blog/cartella senza nome",
     "Blog/templates/cartella senza nome",
