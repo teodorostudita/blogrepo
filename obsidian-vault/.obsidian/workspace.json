@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/templates/Blog Post.md",
+                "file": "Blog/La Provola.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Blog Post"
+              "title": "La Provola"
+            }
+          },
+          {
+            "id": "f40c867e0d063cb4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Blog/attachments/cavallo.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "cavallo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,8 +182,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1016a3688c894b28",
+  "active": "24b9ecfa8d12168f",
   "lastOpenFiles": [
+    "Cavallo.md",
+    "Blog/attachments/cavallo.jpg",
     "Blog/La Provola.md",
     "Blog/templates/Blog Post.md",
     "provola.jpg",
