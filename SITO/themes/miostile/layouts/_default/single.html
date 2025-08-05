@@ -1,8 +1,5 @@
 {{ define "main" }}
-<div class="page-container">
-    <h1>{{ .Title }}</h1>
-    <p><em>Pubblicato il {{ .Date.Format "2 January 2006" }}</em></p>
-    <hr>
-    <div>{{ .Content }}</div>
-</div>
+    <article>
+        {{ .Content }}
+    </article>
 {{ end }}
