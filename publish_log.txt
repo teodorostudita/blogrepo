@@ -7,3 +7,26 @@
 ✅ Page Bundle creato: provola → provola/ (1 immagini)
 ✨ Sincronizzazione completata!
 ➕ Aggiungo i file a Git con: /usr/bin/git
+📦 Creo il commit con messaggio: 'Aggiornamento sito e blog - 2025-08-05 18:21:35'
+[main 12fa7ab] Aggiornamento sito e blog - 2025-08-05 18:21:35
+ Committer: Valerio Polidori <teodoro@MacBook-Pro-di-Valerio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 41 insertions(+), 4 deletions(-)
+ create mode 100644 SITO/content/blog/capibara/capibara.jpg
+ create mode 100644 SITO/content/blog/capibara/index.md
+📤 Eseguo il push su GitHub...
+To https://github.com/teodorostudita/blogrepo.git
+   4a98801..12fa7ab  main -> main
+--------------------------------------
+✅ Pubblicazione completata!
