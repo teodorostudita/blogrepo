@@ -1,8 +1,9 @@
 🚀 Inizio processo di pubblicazione...
 --------------------------------------
 🔄 Eseguo sync-blog.py con: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
-Traceback (most recent call last):
-  File "/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/sync-blog.py", line 4, in <module>
-    import yaml
-ModuleNotFoundError: No module named 'yaml'
+🚀 Inizio sincronizzazione blog...
+✅ Page Bundle creato: Questo pare un cavallo → questo-pare-un-cavallo/ (2 immagini)
+✅ Page Bundle creato: Capibara → capibara/ (2 immagini)
+✅ Page Bundle creato: provola → provola/ (1 immagini)
+✨ Sincronizzazione completata!
 ➕ Aggiungo i file a Git con: /usr/bin/git
