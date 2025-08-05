@@ -6,7 +6,7 @@ comments: true
 cover:
   image: cavallo.jpg
   relative: true
-date: 2025-08-05 15:05:54+01:00
+date: 2025-08-05 14:05:54+01:00
 description: sembrerebbe proprio un cavallo
 disableHLJS: false
 disableShare: false
