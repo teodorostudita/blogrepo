@@ -7,5 +7,19 @@
 ✅ Page Bundle creato: provola → provola/ (1 immagini)
 ✨ Sincronizzazione completata!
 🏗️  Compilo il sito Hugo...
-/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh: line 30: hugo: command not found
+Start building sites … 
+hugo v0.148.2+extended+withdeploy darwin/arm64 BuildDate=2025-07-27T12:43:24Z VendorInfo=brew
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 30 
+ Paginator pages  │  1 
+ Non-page files   │  3 
+ Static files     │ 44 
+ Processed images │  0 
+ Aliases          │  6 
+ Cleaned          │  0 
+
+Total in 75 ms
 ➕ Aggiungo i file a Git con: /usr/bin/git
