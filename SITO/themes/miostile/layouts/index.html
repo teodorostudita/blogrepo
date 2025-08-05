@@ -9,7 +9,7 @@
                 <a href="{{ .Permalink }}" class="post-item-hero">
                     {{ $image := .Resources.GetMatch .Params.image }}
                     {{ if $image }}
-                        <img src="{{ $image.Permalink }}" alt="Anteprima per {{ .Title }}">
+                        <img src="{{ $image.RelPermalink }}" alt="Anteprima per {{ .Title }}">
                     {{ else }}
                         <img src="https://placehold.co/100x70/2c3e50/ecf0f1?text=Anteprima" alt="Immagine segnaposto">
                     {{ end }}
