@@ -1,0 +1,8 @@
+🚀 Inizio processo di pubblicazione...
+--------------------------------------
+🔄 Eseguo sync-blog.py con: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
+Traceback (most recent call last):
+  File "/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/sync-blog.py", line 4, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+➕ Aggiungo i file a Git con: /usr/bin/git
