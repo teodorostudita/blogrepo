@@ -1,7 +1,7 @@
 baseURL = 'https://www.polidorionline.it/'
 languageCode = 'it-it'
 title = 'Studio Odontoiatrico Dr. Valerio Polidori'
-theme = ''
+theme = "miostile"
 
 [markup]
   [markup.goldmark]
