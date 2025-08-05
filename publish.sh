@@ -6,7 +6,7 @@ PYTHON_PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin/python3"  # 
 GIT_PATH="/usr/bin/git"               # <-- METTI QUI IL TUO PERCORSO 'which git'
 
 # --- CONFIGURAZIONE ARUBA ---
-FTP_HOST="ftp.polidorionline.it"          
+FTP_HOST="ftp.polidorionline.it"          # <-- Sostituisci con il tuo dominio
 FTP_USER="17983806@aruba.it"
 FTP_PASS="Malcolm.77"
 REMOTE_PATH="/"
@@ -61,8 +61,10 @@ lftp -c "
   set ftp:ssl-allow no
   set ftp:ssl-force no
   set ssl:verify-certificate no
+  set file:charset utf-8
+  set ftp:charset utf-8
   open -u $FTP_USER,$FTP_PASS ftp://$FTP_HOST
-  mirror -R --delete --verbose --exclude-glob .git* --exclude-glob .DS_Store ./ $REMOTE_PATH
+  mirror -R --delete --verbose --no-perms --exclude-glob .git* --exclude-glob .DS_Store ./ $REMOTE_PATH
   quit
 " >> "../../$LOG_FILE" 2>&1
 
