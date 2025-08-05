@@ -9,7 +9,7 @@ GIT_PATH="/usr/bin/git"               # <-- METTI QUI IL TUO PERCORSO 'which git
 FTP_HOST="ftp.polidorionline.it"          
 FTP_USER="17983806@aruba.it"
 FTP_PASS="Malcolm.77"
-REMOTE_PATH="/public_html/"
+REMOTE_PATH="/public/"
 
 # --- SCRIPT DI PUBBLICAZIONE (non modificare da qui in poi) ---
 cd "$(dirname "$0")"
