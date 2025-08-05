@@ -171,27 +171,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Blog Post.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Blog Post"
-            }
-          },
-          {
-            "id": "463693115b623a1b",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
+              "title": "Outline of Untitled"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -210,7 +200,7 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "463693115b623a1b",
+  "active": "f65996bff14e90b8",
   "lastOpenFiles": [
     "Front End.md",
     "Untitled.md",

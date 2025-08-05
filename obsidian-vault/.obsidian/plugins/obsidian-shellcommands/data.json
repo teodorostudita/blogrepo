@@ -4,7 +4,7 @@
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
-  "working_directory": "",
+  "working_directory": "/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/",
   "default_shells": {},
   "environment_variable_path_augmentations": {},
   "show_installation_warnings": true,
@@ -24,9 +24,9 @@
   "max_visible_lines_in_shell_command_fields": false,
   "shell_commands": [
     {
-      "id": "uj6wcq6i0k",
+      "id": "kikeof0xmv",
       "platform_specific_commands": {
-        "default": "\"/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh\""
+        "default": "\"/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh\" \"{{text_input:Messaggio del commit (lascia vuoto per default)}}\""
       },
       "shells": {},
       "alias": "Pubblica Sito",
