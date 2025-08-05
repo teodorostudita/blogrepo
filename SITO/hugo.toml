@@ -1,0 +1,9 @@
+baseURL = 'https://www.polidorionline.it/'
+languageCode = 'it-it'
+title = 'Studio Odontoiatrico Dr. Valerio Polidori'
+theme = ''
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

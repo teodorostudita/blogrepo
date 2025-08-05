@@ -1,0 +1,16 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/graph.json
+.obsidian/plugins/obsidian-git/data.json
+
+# Hugo
+SITO/public/
+SITO/resources/
+.hugo_build.lock
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.tmp
