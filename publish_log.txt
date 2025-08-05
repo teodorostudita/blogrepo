@@ -9,3 +9,24 @@
 🏗️  Compilo il sito Hugo...
 /Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh: line 30: hugo: command not found
 ➕ Aggiungo i file a Git con: /usr/bin/git
+📦 Creo il commit con messaggio: 'Aggiornamento sito e blog - 2025-08-05 19:48:47'
+[main 84c26d9] Aggiornamento sito e blog - 2025-08-05 19:48:47
+ Committer: Valerio Polidori <teodoro@MBP-di-Valerio.wind3.hub>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 15 deletions(-)
+📤 Eseguo il push su GitHub...
+To https://github.com/teodorostudita/blogrepo.git
+   b87aad5..84c26d9  main -> main
+🌐 Deploy su Aruba...
+❌ lftp non installato. Installa con: brew install lftp
