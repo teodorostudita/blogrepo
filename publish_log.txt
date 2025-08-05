@@ -6,3 +6,17 @@ Traceback (most recent call last):
     import yaml
 ModuleNotFoundError: No module named 'yaml'
 ➕ Aggiungo i file a Git...
+📦 Creo il commit con messaggio: 'Aggiornamento sito e blog - 2025-08-05 17:58:03'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   publish_log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+📤 Eseguo il push su GitHub...
+Everything up-to-date
+--------------------------------------
+✅ Pubblicazione completata! Controlla il file publish_log.txt per i dettagli.
