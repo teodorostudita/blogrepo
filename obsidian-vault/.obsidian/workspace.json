@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Blog/templates/Pubblica Sito.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pubblica Sito"
+            }
+          },
+          {
+            "id": "4be9317e441feda1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Blog/La Provola.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "La Provola"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,14 +185,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f22a6f927ebce50f",
+  "active": "4be9317e441feda1",
   "lastOpenFiles": [
     "Blog/templates/Pubblica Sito.md",
-    "Blog/Capibara.md",
+    "Blog/La Provola.md",
     "Front End.md",
+    "Blog/templates/test.md",
+    "Blog/Capibara.md",
     "Blog/attachments/capibara.jpg",
     "Blog/Cavallo.md",
-    "Blog/La Provola.md",
     "Blog/attachments/cavallo.jpg",
     "Blog/templates/Blog Post.md",
     "provola.jpg",

@@ -1,26 +1,37 @@
 #!/bin/bash
 
-echo "🚀 Inizio processo di pubblicazione..."
+# --- Passaggio Chiave: Naviga nella cartella dello script ---
+# Questo assicura che tutti i comandi (git, python) vengano eseguiti dal posto giusto.
+cd "$(dirname "$0")"
 
-# 1. Sincronizza i post da Obsidian a Hugo
-echo "🔄 Eseguo lo script di sincronizzazione del blog..."
-python3 sync-blog.py
+# Definisce un file di log per registrare tutto
+LOG_FILE="publish_log.txt"
 
-# 2. Aggiunge tutte le modifiche a Git
-echo "➕ Aggiungo tutti i file modificati a Git (staging)..."
-git add .
+# Pulisce il log precedente all'inizio di ogni esecuzione
+> "$LOG_FILE"
 
-# 3. Crea il commit con un messaggio di default o personalizzato
-# Se fornisci un messaggio allo script (es. ./publish.sh "Mio messaggio"), usa quello. Altrimenti, ne usa uno standard.
+echo "🚀 Inizio processo di pubblicazione..." | tee -a "$LOG_FILE"
+echo "--------------------------------------" | tee -a "$LOG_FILE"
+
+# 1. Sincronizza i post
+echo "🔄 Eseguo sync-blog.py..." | tee -a "$LOG_FILE"
+python3 sync-blog.py >> "$LOG_FILE" 2>&1
+
+# 2. Aggiunge i file a Git
+echo "➕ Aggiungo i file a Git..." | tee -a "$LOG_FILE"
+git add . >> "$LOG_FILE" 2>&1
+
+# 3. Crea il commit
 MSG="$1"
 if [ -z "$1" ]; then
   MSG="Aggiornamento sito e blog - $(date +'%Y-%m-%d %H:%M:%S')"
 fi
-echo "📦 Creo il commit con messaggio: '$MSG'"
-git commit -m "$MSG"
+echo "📦 Creo il commit con messaggio: '$MSG'" | tee -a "$LOG_FILE"
+git commit -m "$MSG" >> "$LOG_FILE" 2>&1
 
-# 4. Invia le modifiche a GitHub (e quindi a Netlify)
-echo "📤 Eseguo il push su GitHub..."
-git push
+# 4. Invia a GitHub
+echo "📤 Eseguo il push su GitHub..." | tee -a "$LOG_FILE"
+git push >> "$LOG_FILE" 2>&1
 
-echo "✅ Fatto! Il sito sarà online tra un paio di minuti."
+echo "--------------------------------------" | tee -a "$LOG_FILE"
+echo "✅ Pubblicazione completata! Controlla il file publish_log.txt per i dettagli." | tee -a "$LOG_FILE"

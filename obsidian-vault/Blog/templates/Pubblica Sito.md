@@ -1,11 +1,25 @@
-<%* // Chiede all'utente un messaggio per il commit const commitMessage = await tp.system.prompt("Messaggio del commit (lascia vuoto per default):"); 
+<%*
+try {
+    const commitMessage = await tp.system.prompt("Messaggio del commit (lascia vuoto per default):");
+    
+    const scriptPath = "/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh";
+    
+    const command = `"${scriptPath}" "${commitMessage}"`;
 
-// ATTENZIONE: USA IL PERCORSO COMPLETO E ASSOLUTO DEL TUO SCRIPT! const scriptPath = "/Users/teodoro/Documents/ODONTOIATRIA/P-Med Smile/Sito e Blog/publish.sh"; 
+    new Notice("🚀 Avvio pubblicazione sito...", 5000);
 
-// Costruisce il comando completo const command = `"${scriptPath}" "${commitMessage}"`; 
+    const executionResult = await tp.user.exec(command);
 
-// Mostra una notifica di avvio new Notice("🚀 Avvio pubblicazione sito...", 5000); 
+    // Per il debug, scrive l'output dello script nella console
+    if (executionResult) {
+        console.log("Output dello script di pubblicazione:", executionResult);
+    }
 
-// Esegue il comando await tp.user.exec(command); 
+    new Notice("✅ Pubblicazione completata! Il sito sarà live a breve.", 10000);
 
-// Mostra una notifica di completamento new Notice("✅ Pubblicazione completata! Il sito sarà live a breve.", 10000); _%>
+} catch (error) {
+    // Se si verifica un errore, lo cattura e lo mostra in una notifica
+    new Notice(`❌ Errore durante la pubblicazione: ${error.message}`, 15000);
+    console.error("Dettagli dell'errore:", error);
+}
+_%>
