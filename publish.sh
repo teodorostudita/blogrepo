@@ -64,7 +64,7 @@ lftp -c "
   set file:charset utf-8
   set ftp:charset utf-8
   open -u $FTP_USER,$FTP_PASS ftp://$FTP_HOST
-  mirror -R --delete --verbose --no-perms --exclude-glob .git* --exclude-glob .DS_Store ./ $REMOTE_PATH
+  mirror -R --verbose --no-perms --exclude-glob .git* --exclude-glob .DS_Store ./ $REMOTE_PATH
   quit
 " >> "../../$LOG_FILE" 2>&1
 
